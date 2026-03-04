@@ -48,10 +48,10 @@ class MicroBank:
 #Phase 4: House Keeping
 
     # 4.1: Any functions and methods that are used in the game loop but aren't part of the main game logic; e.g. main(), __name__ == "__main__", game = , and game.play; or display functions that show the current state of the game to the user.
-def main():
+
+   
+
+if __name__ == "__main__":
     microBank = MicroBank("input.data")
     data = microBank.get_user_input()
     microBank.process_user_input(data)
-
-if __name__ == "__main__":
-    main()
